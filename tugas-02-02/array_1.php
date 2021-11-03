@@ -2,6 +2,11 @@
 <html>
 <head>
 <title>Mengakses Variabel Array</title>
+<style>
+    .warna{
+        background-color: orange;
+    }
+    </style>
 <link
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/boots
 trap.min.css" rel="stylesheet"
@@ -26,9 +31,9 @@ array("nim"=>"SI-002", "nama_mahasiswa"=>"Wawan",
 ?>
 <table class="table table-striped" table border="1" cellpadding="10" cellspacing="0" align="center">
 <tr>
-<th>NIM</th>
-<th>Nama Mahasiswa</th>
-<th>Program Studi</th>
+<th class="warna">NIM</th>
+<th class="warna">Nama Mahasiswa</th>
+<th class="warna">Program Studi</th>
 </tr>
 <?php foreach ($mahasiswa as $mhs) : ?>
     <tr>
